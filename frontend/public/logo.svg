@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="none">
+  <!-- Brain icon -->
+  <circle cx="20" cy="25" r="12" fill="url(#grad1)" opacity="0.9"/>
+  <path d="M14 22 Q14 18 18 18 Q18 15 22 15 Q26 15 26 18 Q30 18 30 22 Q32 24 30 26 Q30 30 26 30 Q26 33 22 33 Q18 33 18 30 Q14 30 14 26 Z" fill="url(#grad1)"/>
+  <!-- Neural lines -->
+  <line x1="22" y1="20" x2="22" y2="30" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <line x1="17" y1="23" x2="27" y2="23" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <line x1="18" y1="20" x2="26" y2="27" stroke="white" stroke-width="1" opacity="0.5"/>
+  <line x1="26" y1="20" x2="18" y2="27" stroke="white" stroke-width="1" opacity="0.5"/>
+  <!-- Queue dots -->
+  <circle cx="36" cy="22" r="3" fill="#6366f1"/>
+  <circle cx="44" cy="22" r="3" fill="#818cf8"/>
+  <circle cx="52" cy="22" r="3" fill="#a5b4fc"/>
+  <line x1="36" y1="22" x2="52" y2="22" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- Arrow -->
+  <path d="M54 22 L60 22 M57 19 L60 22 L57 25" stroke="#6366f1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Text: QueueMind -->
+  <text x="68" y="20" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1e293b">QueueMind</text>
+  <text x="68" y="34" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="500" fill="#6366f1" letter-spacing="2">AI</text>
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
